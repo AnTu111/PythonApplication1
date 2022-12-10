@@ -4,13 +4,16 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7d83f50b-2eba-425a-9f3f-0cd9e0ed9c91</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonApplication1.py</StartupFile>
+    <StartupFile>Циклы (FOR, WHILE, WHILE True).py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>PythonApplication1</Name>
     <RootNamespace>PythonApplication1</RootNamespace>
+    <TestFramework>pytest</TestFramework>
+    <UnitTestPattern>test*.py</UnitTestPattern>
+    <UnitTestRootDirectory>.</UnitTestRootDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +24,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Esimesed programmid Pythoni keeles. print%28%29,input%28%29, aritmeetilised operatsioonid.py" />
     <Compile Include="PythonApplication1.py" />
+    <Compile Include="Циклы %28FOR, WHILE, WHILE True%29.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
