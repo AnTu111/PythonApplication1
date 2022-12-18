@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7d83f50b-2eba-425a-9f3f-0cd9e0ed9c91</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Циклы (FOR, WHILE, WHILE True).py</StartupFile>
+    <StartupFile>Math.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -14,6 +14,7 @@
     <TestFramework>pytest</TestFramework>
     <UnitTestPattern>test*.py</UnitTestPattern>
     <UnitTestRootDirectory>.</UnitTestRootDirectory>
+    <SuppressConfigureTestFrameworkPrompt>true</SuppressConfigureTestFrameworkPrompt>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -25,8 +26,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Esimesed programmid Pythoni keeles. print%28%29,input%28%29, aritmeetilised operatsioonid.py" />
+    <Compile Include="Math.py" />
     <Compile Include="PythonApplication1.py" />
-    <Compile Include="Циклы %28FOR, WHILE, WHILE True%29.py" />
+    <Compile Include="..\..\..\..\Desktop\Запасной вариант Циклы %28FOR, WHILE, WHILE True%29.py">
+      <Link>Запасной вариант Циклы (FOR, WHILE, WHILE True).py</Link>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
