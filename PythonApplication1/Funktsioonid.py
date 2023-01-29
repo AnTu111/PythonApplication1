@@ -19,7 +19,7 @@ def arithmetic(a1: float, sym: str, a2: float) -> any:
     return vas
 
 
-def is_year_leap(a1: str) -> str:
+def is_year_leap(a1: int) -> int:
     """Liigaasta kalkulaator
     Args:
         a1 (int): year
@@ -54,7 +54,7 @@ def bank(money: float, years: int) -> float:
     """Panga prosent
     Args:
         money (float): alg summa
-        yeras(int): aastad
+        years(int): aastad
     Returns:
         lõppsumma (str): lõpsumma
     """
