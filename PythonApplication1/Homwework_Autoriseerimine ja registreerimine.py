@@ -1,0 +1,9 @@
+from MyModule import *
+
+choises()
+
+
+
+
+
+
